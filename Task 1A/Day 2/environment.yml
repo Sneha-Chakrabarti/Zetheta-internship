@@ -1,0 +1,12 @@
+name: regime
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - -r requirements/core.txt
+      - -r requirements/bayesian.txt
+      - -r requirements/deep_learning.txt
+      - -r requirements/foundation_models.txt
+      - -r requirements/conformal_tda.txt
