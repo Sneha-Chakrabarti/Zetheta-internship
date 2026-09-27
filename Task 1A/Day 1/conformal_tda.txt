@@ -1,0 +1,11 @@
+# Day 3: topological data analysis features.
+# Day 11: conformal prediction wrappers and changepoint detection.
+#
+# NOTE (added Day 3): giotto-tda downgraded numpy 2.4.4 -> 1.26.4 and
+# scikit-learn 1.8.0 -> 1.3.2 on install here. Re-ran the full test suite
+# after and everything passed, but re-check after installing this if
+# numpy/sklearn versions matter elsewhere in your environment.
+giotto-tda
+mapie>=0.8
+crepes>=0.5
+bayesian_changepoint_detection

@@ -1,0 +1,16 @@
+# Day 1-4: data handling, classical ML, frequentist HMM, changepoint tools.
+# Kept separate from heavier tiers so the base environment installs fast.
+numpy>=1.26
+pandas>=2.1
+scipy
+scikit-learn>=1.4
+matplotlib
+seaborn
+plotly
+hmmlearn>=0.3
+statsmodels>=0.14
+filterpy>=1.4
+ruptures>=1.1
+requests
+beautifulsoup4
+yfinance

@@ -1,0 +1,7 @@
+# Day 8: pre-trained time-series foundation models.
+# NOTE: these packages pull pretrained weights from Hugging Face Hub at
+# runtime, not at pip-install time. If the execution environment cannot
+# reach huggingface.co, weight download will fail even though the package
+# installs. See PROJECT_PLAN.md, Day 8 notes, for the fallback plan.
+chronos-forecasting
+timesfm

@@ -1,0 +1,18 @@
+# Day 7: Bayesian deep learning (MC dropout, variational BNN, deep ensemble).
+# Day 8: foundation-model classification heads sit on torch/tensorflow too.
+# Day 7: Bayesian deep learning (MC dropout, variational BNN, deep ensemble).
+# Day 8: foundation-model classification heads sit on torch/tensorflow too.
+#
+# NOTE (added Day 3, when torch/torch_geometric were actually installed
+# for the sector-GCN feature): plain `pip install torch` pulls a full
+# CUDA stack (cuda-toolkit, nvidia-cudnn, nvidia-nccl, triton) that can
+# exceed available disk space in a constrained sandbox. If that happens,
+# install torch CPU-only by hand instead:
+#   pip install --no-deps torch
+#   pip install filelock typing-extensions sympy networkx jinja2 fsspec
+# torch_geometric installed normally (small, pure-Python-heavy wheel).
+tensorflow>=2.15
+tensorflow-probability>=0.23
+torch
+torch_geometric
+shap>=0.44
