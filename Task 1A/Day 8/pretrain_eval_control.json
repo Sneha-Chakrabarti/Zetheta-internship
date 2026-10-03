@@ -1,0 +1,23 @@
+{
+ "corpus_without_regime_switch": {
+  "n": 400,
+  "pinball_with_switch_family": 0.2150528448820114,
+  "pinball_without_switch_family": 0.2149016946554184,
+  "pinball_untrained": 0.6384701037406921,
+  "pinball_static_quantiles": 0.24563659922630873
+ },
+ "regime_switch_family_only": {
+  "n": 400,
+  "pinball_with_switch_family": 0.23704593002796173,
+  "pinball_without_switch_family": 0.23894230365753175,
+  "pinball_untrained": 0.6437640261650085,
+  "pinball_static_quantiles": 0.24560769064511306
+ },
+ "project_nifty_returns": {
+  "n": 588,
+  "pinball_with_switch_family": 0.2455425251300643,
+  "pinball_without_switch_family": 0.24555458087904924,
+  "pinball_untrained": 0.6434184012769841,
+  "pinball_static_quantiles": 0.2482891529811817
+ }
+}
